@@ -1,5 +1,4 @@
-// Code your design here
-module fifo1 #(parameter DSIZE = 8,
+ module fifo1 #(parameter DSIZE = 8,
  parameter ASIZE = 7)
  (output [DSIZE-1:0] rdata,
  output wfull,
